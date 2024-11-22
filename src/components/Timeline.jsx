@@ -39,7 +39,7 @@ export function Timeline() {
   }, [handleZoom, handlePan]);
 
   return (
-    <Card className="w-full bg-[#333333] h-dvh">
+    <Card className="w-full bg-[#07090D] h-dvh">
       <CardHeader className="flex gap-3 ">
         <div className="flex flex-col">
           <p className="text-md text-slate-100">Timeline</p>

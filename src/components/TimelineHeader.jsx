@@ -8,7 +8,7 @@ export function TimelineHeader({ filledDates }) {
       key={day.getTime()}
       className={cx(
         "flex items-center justify-center text-sm  gap-1",
-        isCurrentDate(day) && "bg-[orange] rounded-md current-day"
+        isCurrentDate(day) && "bg-[#F2DD72] rounded-md current-day"
       )}>
       {day
         .toLocaleDateString("es", { weekday: "short", day: "numeric" })
