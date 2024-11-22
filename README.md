@@ -40,9 +40,14 @@ npm start
 
 ### Task Completed
 
-- Allow zooming in and out of the timeline. ✅
+- Allow zooming in and out of the timeline. (Zoom with control key and mouse )✅
 - Allow dragging and dropping to change the start date and/or end date for an event. ✅
 - Allow editing the name of events inline.✅
+
+Aditional:
+
+- Detail Tooltip.
+- Current day indicator.
 
 ### Design Decisions
 
