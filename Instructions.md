@@ -18,7 +18,7 @@ After you have a basic read-only timeline showing up, here are some potential im
 
 - Allow zooming in and out of the timeline. ✅
 - Allow dragging and dropping to change the start date and/or end date for an event. ✅
-- Allow editing the name of events inline.
+- Allow editing the name of events inline.✅
 - Any other polish or useful enhancements you can think of.
 
 Include a README that covers:
