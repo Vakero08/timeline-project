@@ -16,25 +16,25 @@ Avoid using libraries that solve too much of the problem. General purpose librar
 
 After you have a basic read-only timeline showing up, here are some potential improvements to attempt:
 
-* Allow zooming in and out of the timeline.
-* Allow dragging and dropping to change the start date and/or end date for an event.
-* Allow editing the name of events inline.
-* Any other polish or useful enhancements you can think of.
+- Allow zooming in and out of the timeline. ✅
+- Allow dragging and dropping to change the start date and/or end date for an event. ✅
+- Allow editing the name of events inline.
+- Any other polish or useful enhancements you can think of.
 
 Include a README that covers:
 
-* How long you spent on the assignment.
-* What you like about your implementation.
-* What you would change if you were going to do it again.
-* How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
-* How you would test this if you had more time.
+- How long you spent on the assignment.
+- What you like about your implementation.
+- What you would change if you were going to do it again.
+- How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
+- How you would test this if you had more time.
 
 If you did not use the starter code, please also include instructions on how to build and run your project so we can see and interact with the timeline component you built. It should render the sample data included in "src/timelineItems.js"
 
 What we're looking for:
 
-* Clean, readable, maintainable code.
-* A sensible user experience and design for the final product.
+- Clean, readable, maintainable code.
+- A sensible user experience and design for the final product.
 
 ## Starter code:
 

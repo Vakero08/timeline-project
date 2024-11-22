@@ -30,7 +30,7 @@
 }
 .content-dates {
   display: grid;
-  grid-template-columns: repeat(47, 50px);
+  /* grid-template-columns: repeat(47, 50px); */
   gap: 2px;
 }
 
