@@ -2,7 +2,7 @@
 
 import { Utils } from "../utils/utils";
 
-const TimelineEvent = ({ event, filledDates, onDateChange }) => {
+const TimelineEvent = ({ event, filledDates, onDateChange, setData }) => {
   const startDate = new Date(event.start);
   const findIndex = filledDates.findIndex(item => item.getTime() === startDate.getTime());
   const diffDays = Utils.diffDays(event.start, event.end);
@@ -12,6 +12,15 @@ const TimelineEvent = ({ event, filledDates, onDateChange }) => {
   const handleMouseDown = (e, side) => {
     e.preventDefault();
     onDateChange(event.id, side);
+  };
+
+  const handleNameChange = e => {
+    setData(prevData => {
+      const newData = [...prevData];
+      const index = newData.findIndex(item => item.id === event.id);
+      newData[index].name = e.target.value;
+      return newData;
+    });
   };
 
   return (
@@ -26,7 +35,11 @@ const TimelineEvent = ({ event, filledDates, onDateChange }) => {
         onMouseDown={e => handleMouseDown(e, "start")}></div>
       {diffDays > 3 ? (
         <div className="flex justify-between w-full items-center">
-          <span className="truncate flex-grow mr-2">{event.name}</span>
+          <input
+            className="truncate flex-grow mr-2 border-none bg-transparent !w-1/3"
+            value={event.name}
+            onChange={handleNameChange}
+          />
           <span className="text-gray-600 text-xs">Duration: {diffDays}d</span>
         </div>
       ) : (

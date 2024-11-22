@@ -8,7 +8,13 @@ export function TimelineBody({ data, filledDates, setData, zoom }) {
   return (
     <>
       {data.map(event => (
-        <TimelineEvent key={event.id} event={event} filledDates={filledDates} onDateChange={handleDateChange} />
+        <TimelineEvent
+          key={event.id}
+          event={event}
+          filledDates={filledDates}
+          onDateChange={handleDateChange}
+          setData={setData}
+        />
       ))}
     </>
   );
