@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "start": "2024-11-01",
+    "end": "2024-11-05",
+    "name": "First item"
+  },
+  {
+    "id": 2,
+    "start": "2024-11-02",
+    "end": "2024-11-08",
+    "name": "Second item"
+  },
+  {
+    "id": 3,
+    "start": "2024-11-06",
+    "end": "2024-11-13",
+    "name": "3 item"
+  },
+  {
+    "id": 4,
+    "start": "2024-11-14",
+    "end": "2024-11-14",
+    "name": "4 item"
+  },
+  {
+    "id": 5,
+    "start": "2024-12-01",
+    "end": "2024-12-15",
+    "name": "5 item"
+  },
+  {
+    "id": 6,
+    "start": "2024-11-12",
+    "end": "2024-12-16",
+    "name": "6 item with a super long name"
+  },
+  {
+    "id": 7,
+    "start": "2024-12-01",
+    "end": "2024-12-02",
+    "name": "7 item with a super long name"
+  },
+  {
+    "id": 8,
+    "start": "2024-11-03",
+    "end": "2024-11-05",
+    "name": "8 item"
+  },
+  {
+    "id": 9,
+    "start": "2024-11-04",
+    "end": "2024-11-08",
+    "name": "9 item"
+  },
+  {
+    "id": 10,
+    "start": "2024-11-06",
+    "end": "2024-11-13",
+    "name": "10 item"
+  },
+  {
+    "id": 11,
+    "start": "2024-11-09",
+    "end": "2024-11-09",
+    "name": "11 item"
+  },
+  {
+    "id": 12,
+    "start": "2024-12-01",
+    "end": "2024-12-15",
+    "name": "12 item"
+  },
+  {
+    "id": 13,
+    "start": "2024-11-12",
+    "end": "2024-12-16",
+    "name": "13 item with a super long name"
+  },
+  {
+    "id": 14,
+    "start": "2024-12-01",
+    "end": "2024-12-02",
+    "name": "14 item with a super long name"
+  }
+]
